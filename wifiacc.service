@@ -1,0 +1,8 @@
+[Unit]
+Description=Makes wifi usable on HP
+
+[Service]
+ExecStart=/usr/bin/wifiacc
+
+[Install]
+WantedBy=multi-user.target
